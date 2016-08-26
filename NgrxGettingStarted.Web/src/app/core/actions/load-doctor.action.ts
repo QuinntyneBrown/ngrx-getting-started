@@ -1,0 +1,1 @@
+﻿export const LOAD_DOCTOR = "[Doctor] Load Doctor";

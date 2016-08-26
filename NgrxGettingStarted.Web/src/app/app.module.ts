@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule  } from '@angular/platform-browser';
+import { CoreModule } from "./core/core.module";
 import { routing } from './app.routing';
 import { AppComponent } from './app.component';
 import { HomePageComponent } from "./pages/home-page.component";
@@ -11,7 +12,7 @@ const declarables = [
 ]
 
 @NgModule({
-    imports: [routing, BrowserModule],
+    imports: [routing, BrowserModule, CoreModule],
     declarations: [declarables],
     exports: [declarables],
     bootstrap:[AppComponent]

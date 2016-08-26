@@ -240,7 +240,15 @@
       <DependentUpon>app.component.ts</DependentUpon>
     </TypeScriptCompile>
     <TypeScriptCompile Include="src\app\app.routing.ts" />
+    <TypeScriptCompile Include="src\app\core\action-creators\app.action-creator.ts" />
+    <TypeScriptCompile Include="src\app\core\action-creators\index.ts" />
+    <TypeScriptCompile Include="src\app\core\actions\index.ts" />
+    <TypeScriptCompile Include="src\app\core\actions\load-doctor.action.ts" />
+    <TypeScriptCompile Include="src\app\core\reducers\index.ts" />
+    <TypeScriptCompile Include="src\app\core\services\doctor.service.ts" />
+    <TypeScriptCompile Include="src\app\core\services\index.ts" />
     <TypeScriptCompile Include="src\app\environment.ts" />
+    <TypeScriptCompile Include="src\app\core\initial-state.ts" />
     <TypeScriptCompile Include="src\app\pages\home-page.component.spec.ts">
       <DependentUpon>home-page.component.ts</DependentUpon>
     </TypeScriptCompile>
@@ -250,6 +258,8 @@
     <TypeScriptCompile Include="src\app\app.component.ts" />
     <TypeScriptCompile Include="src\app\app.module.ts" />
     <TypeScriptCompile Include="src\app\pages\home-page.component.ts" />
+    <TypeScriptCompile Include="src\app\core\core.module.ts" />
+    <TypeScriptCompile Include="src\app\core\reducers\load-doctor.reducer.ts" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
