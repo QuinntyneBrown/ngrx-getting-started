@@ -265,6 +265,8 @@
     <TypeScriptCompile Include="src\app\core\actions\load-doctors.action.ts" />
     <TypeScriptCompile Include="src\app\core\actions\load-doctor.action.ts" />
     <TypeScriptCompile Include="src\app\core\actions\remove-doctor.action.ts" />
+    <TypeScriptCompile Include="src\app\core\effects\doctor.effects.ts" />
+    <TypeScriptCompile Include="src\app\core\effects\index.ts" />
     <TypeScriptCompile Include="src\app\core\index.ts" />
     <TypeScriptCompile Include="src\app\core\models\doctor.model.ts" />
     <TypeScriptCompile Include="src\app\core\models\index.ts" />
@@ -272,6 +274,8 @@
     <TypeScriptCompile Include="src\app\core\reducers\index.ts" />
     <TypeScriptCompile Include="src\app\core\services\doctor.service.ts" />
     <TypeScriptCompile Include="src\app\core\services\index.ts" />
+    <TypeScriptCompile Include="src\app\core\utilities\add-or-update.ts" />
+    <TypeScriptCompile Include="src\app\core\utilities\index.ts" />
     <TypeScriptCompile Include="src\app\environment.ts" />
     <TypeScriptCompile Include="src\app\core\reducers\initial-state.ts" />
     <TypeScriptCompile Include="src\app\guards\index.ts" />
@@ -287,7 +291,7 @@
     <TypeScriptCompile Include="src\app\app.module.ts" />
     <TypeScriptCompile Include="src\app\pages\home-page.component.ts" />
     <TypeScriptCompile Include="src\app\core\core.module.ts" />
-    <TypeScriptCompile Include="src\app\core\reducers\load-doctor.reducer.ts" />
+    <TypeScriptCompile Include="src\app\core\reducers\doctors.reducer.ts" />
     <TypeScriptCompile Include="src\app\components\doctor-list\doctor-list.component.ts" />
     <TypeScriptCompile Include="src\app\components\doctor-detail\doctor-detail.component.ts" />
   </ItemGroup>

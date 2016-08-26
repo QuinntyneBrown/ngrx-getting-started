@@ -4,7 +4,7 @@ import { ActionReducer, Action, combineReducers, provideStore } from '@ngrx/stor
 import { compose } from "@ngrx/core/compose";
 import { localStorageSync } from "ngrx-store-localstorage";
 
-import { loadDoctor } from "./reducers";
+import { doctorsReducer } from "./reducers";
 
 import { DoctorService } from "./services";
 
@@ -15,9 +15,9 @@ const declarables = [];
 const providers = [
     provideStore(
         compose(
-            localStorageSync(['doctors']),
+            localStorageSync(['ngrxGettingStarted']),
             combineReducers
-        )({ loadDoctor })
+        )({ doctors: doctorsReducer })
     ),
     DoctorService,
     AppActionCreator

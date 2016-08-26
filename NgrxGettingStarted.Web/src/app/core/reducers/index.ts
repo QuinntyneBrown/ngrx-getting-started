@@ -1,2 +1,2 @@
-﻿export * from "./load-doctor.reducer";
+﻿export * from "./doctors.reducer";
 export * from "./app-state";
