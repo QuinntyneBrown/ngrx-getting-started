@@ -262,6 +262,7 @@
     <TypeScriptCompile Include="src\app\core\action-creators\app.action-creator.ts" />
     <TypeScriptCompile Include="src\app\core\action-creators\index.ts" />
     <TypeScriptCompile Include="src\app\core\actions\index.ts" />
+    <TypeScriptCompile Include="src\app\core\actions\load-doctors.action.ts" />
     <TypeScriptCompile Include="src\app\core\actions\load-doctor.action.ts" />
     <TypeScriptCompile Include="src\app\core\actions\remove-doctor.action.ts" />
     <TypeScriptCompile Include="src\app\core\index.ts" />
