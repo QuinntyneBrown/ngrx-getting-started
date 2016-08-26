@@ -1,10 +1,10 @@
-using NgrxGettingStarted.Config;
+using NgrxGettingStarted.Configuration;
 using NgrxGettingStarted.Services;
 using Microsoft.Owin;
 using Microsoft.Owin.Security.OAuth;
 using System;
 
-namespace NgrxGettingStarted.Auth
+namespace NgrxGettingStarted.Authentication
 {
     public class OAuthOptions : OAuthAuthorizationServerOptions
     {

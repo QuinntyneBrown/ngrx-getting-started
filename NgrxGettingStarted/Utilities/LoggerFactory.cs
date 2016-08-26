@@ -1,9 +1,9 @@
-using NgrxGettingStarted.Utils;
+using NgrxGettingStarted.Utilities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace NgrxGettingStarted.Utils
+namespace NgrxGettingStarted.Utilities
 {
     public class LoggerFactory: ILoggerFactory
     {

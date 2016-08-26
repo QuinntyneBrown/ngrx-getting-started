@@ -203,6 +203,18 @@
     <Content Include="src\app\app.component.scss">
       <DependentUpon>app.component.ts</DependentUpon>
     </Content>
+    <Content Include="src\app\components\doctor-detail\doctor-detail.component.html">
+      <DependentUpon>doctor-detail.component.ts</DependentUpon>
+    </Content>
+    <Content Include="src\app\components\doctor-detail\doctor-detail.component.scss">
+      <DependentUpon>doctor-detail.component.ts</DependentUpon>
+    </Content>
+    <Content Include="src\app\components\doctor-list\doctor-list.component.html">
+      <DependentUpon>doctor-list.component.ts</DependentUpon>
+    </Content>
+    <Content Include="src\app\components\doctor-list\doctor-list.component.scss">
+      <DependentUpon>doctor-list.component.ts</DependentUpon>
+    </Content>
     <Content Include="src\app\pages\home-page.component.html">
       <DependentUpon>home-page.component.ts</DependentUpon>
     </Content>
@@ -240,18 +252,33 @@
       <DependentUpon>app.component.ts</DependentUpon>
     </TypeScriptCompile>
     <TypeScriptCompile Include="src\app\app.routing.ts" />
+    <TypeScriptCompile Include="src\app\components\doctor-detail\doctor-detail.component.spec.ts">
+      <DependentUpon>doctor-detail.component.ts</DependentUpon>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="src\app\components\doctor-list\doctor-list.component.spec.ts">
+      <DependentUpon>doctor-list.component.ts</DependentUpon>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="src\app\components\index.ts" />
     <TypeScriptCompile Include="src\app\core\action-creators\app.action-creator.ts" />
     <TypeScriptCompile Include="src\app\core\action-creators\index.ts" />
     <TypeScriptCompile Include="src\app\core\actions\index.ts" />
     <TypeScriptCompile Include="src\app\core\actions\load-doctor.action.ts" />
+    <TypeScriptCompile Include="src\app\core\actions\remove-doctor.action.ts" />
+    <TypeScriptCompile Include="src\app\core\index.ts" />
+    <TypeScriptCompile Include="src\app\core\models\doctor.model.ts" />
+    <TypeScriptCompile Include="src\app\core\models\index.ts" />
+    <TypeScriptCompile Include="src\app\core\reducers\app-state.ts" />
     <TypeScriptCompile Include="src\app\core\reducers\index.ts" />
     <TypeScriptCompile Include="src\app\core\services\doctor.service.ts" />
     <TypeScriptCompile Include="src\app\core\services\index.ts" />
     <TypeScriptCompile Include="src\app\environment.ts" />
-    <TypeScriptCompile Include="src\app\core\initial-state.ts" />
+    <TypeScriptCompile Include="src\app\core\reducers\initial-state.ts" />
+    <TypeScriptCompile Include="src\app\guards\index.ts" />
     <TypeScriptCompile Include="src\app\pages\home-page.component.spec.ts">
       <DependentUpon>home-page.component.ts</DependentUpon>
     </TypeScriptCompile>
+    <TypeScriptCompile Include="src\app\pages\index.ts" />
+    <TypeScriptCompile Include="src\app\guards\can-activate-home-page.guard.ts" />
     <TypeScriptCompile Include="src\main.ts" />
     <TypeScriptCompile Include="src\polyfills.ts" />
     <TypeScriptCompile Include="src\vendor.ts" />
@@ -260,6 +287,8 @@
     <TypeScriptCompile Include="src\app\pages\home-page.component.ts" />
     <TypeScriptCompile Include="src\app\core\core.module.ts" />
     <TypeScriptCompile Include="src\app\core\reducers\load-doctor.reducer.ts" />
+    <TypeScriptCompile Include="src\app\components\doctor-list\doctor-list.component.ts" />
+    <TypeScriptCompile Include="src\app\components\doctor-detail\doctor-detail.component.ts" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />

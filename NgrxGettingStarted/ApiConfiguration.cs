@@ -8,10 +8,10 @@ using Swashbuckle.Application;
 using Microsoft.Owin.Cors;
 using System;
 using NgrxGettingStarted.App_Start;
-using NgrxGettingStarted.Utils;
-using NgrxGettingStarted.Config;
+using NgrxGettingStarted.Utilities;
+using NgrxGettingStarted.Configuration;
 using NgrxGettingStarted.Services;
-using NgrxGettingStarted.Auth;
+using NgrxGettingStarted.Authentication;
 using NgrxGettingStarted.Filters;
 
 namespace NgrxGettingStarted

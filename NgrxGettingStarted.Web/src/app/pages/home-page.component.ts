@@ -1,4 +1,6 @@
 import { Component, ChangeDetectionStrategy, Input, OnInit } from "@angular/core";
+import { Store } from "@ngrx/store";
+import { AppState, Doctor } from "../core";
 
 @Component({
     template: require("./home-page.component.html"),
@@ -7,7 +9,11 @@ import { Component, ChangeDetectionStrategy, Input, OnInit } from "@angular/core
     changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class HomePageComponent implements OnInit { 
-    ngOnInit() {
+    constructor(private _store: Store<AppState>) { }
 
+    ngOnInit() {
+        
     }
+
+    public entites: Array<Doctor> = [];
 }

@@ -1,4 +1,4 @@
-using NgrxGettingStarted.Config;
+using NgrxGettingStarted.Configuration;
 using NgrxGettingStarted.Services;
 using System;
 using System.IO;

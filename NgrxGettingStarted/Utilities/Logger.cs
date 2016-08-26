@@ -1,7 +1,7 @@
 
 using System;
 
-namespace NgrxGettingStarted.Utils
+namespace NgrxGettingStarted.Utilities
 {
     public class Logger: ILogger
     {

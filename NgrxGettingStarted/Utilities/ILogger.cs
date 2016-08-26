@@ -1,4 +1,4 @@
-namespace NgrxGettingStarted.Utils
+namespace NgrxGettingStarted.Utilities
 {
     public interface ILogger
     {

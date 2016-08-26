@@ -1,5 +1,5 @@
 using System.Web.Http.Filters;
-using NgrxGettingStarted.Utils;
+using NgrxGettingStarted.Utilities;
 
 namespace NgrxGettingStarted.Filters
 {

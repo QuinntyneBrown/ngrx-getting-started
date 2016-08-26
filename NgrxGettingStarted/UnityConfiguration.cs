@@ -1,7 +1,7 @@
-using NgrxGettingStarted.Config;
+using NgrxGettingStarted.Configuration;
 using NgrxGettingStarted.Data;
 using NgrxGettingStarted.Services;
-using NgrxGettingStarted.Utils;
+using NgrxGettingStarted.Utilities;
 using Microsoft.Practices.Unity;
 using Microsoft.Practices.Unity.InterceptionExtension;
 

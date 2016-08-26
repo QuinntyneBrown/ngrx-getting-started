@@ -2,6 +2,8 @@
 
 import { HomePageComponent } from "./pages/home-page.component";
 
+import { CanActivateHomePageGuard } from "./guards";
+
 export const routes: Routes = [
     {
         path: '',
@@ -10,7 +12,8 @@ export const routes: Routes = [
     },
     {
         path: 'home',
-        component: HomePageComponent
+        component: HomePageComponent,
+        canActivate: [CanActivateHomePageGuard]
     }];
 
 export const routing = RouterModule.forRoot([...routes, ...routes]);

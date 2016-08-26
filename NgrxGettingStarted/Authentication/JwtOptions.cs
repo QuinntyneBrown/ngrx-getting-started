@@ -1,8 +1,8 @@
 using Microsoft.Owin.Security.Jwt;
 using System;
-using NgrxGettingStarted.Config;
+using NgrxGettingStarted.Configuration;
 
-namespace NgrxGettingStarted.Auth
+namespace NgrxGettingStarted.Authentication
 {
     public class JwtOptions : JwtBearerAuthenticationOptions
     {

@@ -1,7 +1,7 @@
 using System;
 using System.Configuration;
 
-namespace NgrxGettingStarted.Config
+namespace NgrxGettingStarted.Configuration
 {
     public class AuthConfiguration : ConfigurationSection, IAuthConfiguration
     {

@@ -1,4 +1,4 @@
-namespace NgrxGettingStarted.Config
+namespace NgrxGettingStarted.Configuration
 {
     public interface IAuthConfiguration
     {

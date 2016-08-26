@@ -2,9 +2,9 @@ using System.IdentityModel.Tokens;
 using Microsoft.Owin.Security;
 using System;
 using Microsoft.Owin.Security.OAuth;
-using NgrxGettingStarted.Config;
+using NgrxGettingStarted.Configuration;
 
-namespace NgrxGettingStarted.Auth
+namespace NgrxGettingStarted.Authentication
 {
     public class JwtWriterFormat : ISecureDataFormat<AuthenticationTicket>
     {

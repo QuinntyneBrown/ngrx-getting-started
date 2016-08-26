@@ -3,10 +3,16 @@ import { BrowserModule  } from '@angular/platform-browser';
 import { CoreModule } from "./core/core.module";
 import { routing } from './app.routing';
 import { AppComponent } from './app.component';
-import { HomePageComponent } from "./pages/home-page.component";
+import { HomePageComponent } from "./pages";
+
+import { DoctorListComponent, DoctorDetailComponent } from "./components";
+
 
 const declarables = [
     AppComponent,
+
+    DoctorListComponent,
+    DoctorDetailComponent,
 
     HomePageComponent
 ]

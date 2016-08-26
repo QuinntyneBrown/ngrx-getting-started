@@ -1,0 +1,1 @@
+﻿export const REMOVE_DOCTOR = "[Doctor] Remove Doctor";

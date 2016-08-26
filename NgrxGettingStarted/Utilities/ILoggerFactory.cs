@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace NgrxGettingStarted.Utils
+namespace NgrxGettingStarted.Utilities
 {
     public interface ILoggerFactory
     {
